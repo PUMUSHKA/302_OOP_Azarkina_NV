@@ -1,5 +1,5 @@
 {
-    "name": "yuliya/task04",
+    "name": "natalia/task04",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
@@ -11,8 +11,8 @@
     },
     "authors": [
         {
-            "name": "Yuliya Kudashkina",
-            "email": "kudashkina-yuliya@mail.ru"
+            "name": "Natalia Azarkina",
+            "email": "azarkinanat@mail.ru"
         }
     ],
     "require-dev": {
