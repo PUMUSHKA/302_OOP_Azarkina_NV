@@ -10,9 +10,6 @@ class ManufacturerFilter implements ProductFilteringStrategy
     {
         $this->manufacturer = $manufacturer;
     }
-    // ===================================
-    //@TODO Реализовать стратегию фильтрации по цене товара
-    // ===================================
     public function filter(Product $product): bool
     {
         return $this->manufacturer === $product->manufacturer;

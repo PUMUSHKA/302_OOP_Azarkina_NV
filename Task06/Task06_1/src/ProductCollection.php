@@ -14,11 +14,6 @@ class ProductCollection
     public function filter(ProductFilteringStrategy $filterStrategy): ProductCollection
     {
         $filteredProducts = array();
-        // ===================================
-        //@TODO Добавить код для фильтрации товара из $this->products в $filteredProducts,
-        //@TODO используя вызов $filterStrategy->filter()
-        // ===================================
-
         foreach ($this->products as $key => $value) {
             if ($filterStrategy->filter($value)) {
                 $filteredProducts[] = $value;

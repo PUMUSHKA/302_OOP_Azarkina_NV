@@ -10,9 +10,6 @@ class MaxPriceFilter implements ProductFilteringStrategy
     {
         $this->maxPrice = $maxPrice;
     }
-    // ===================================
-    //@TODO Реализовать стратегию фильтрации по цене товара
-    // ===================================
     public function filter(Product $product): bool
     {
         if ($product->sellingPrice) {
